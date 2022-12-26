@@ -1,4 +1,4 @@
-numbers=input("Enter the text: ") # input numbers (string type).
+numbers=input("Enter numbers: ") # input numbers (string type).
 List=list(numbers.split(", ")) # string distribution and setting the parameter.
 List1= list()
 maxNum = 0
