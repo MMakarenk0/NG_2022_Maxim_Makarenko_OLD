@@ -1,28 +1,31 @@
+def output(res):
+    print("Result: " + str(res))
+
 def sum(frNum,secNum):
     res =frNum+secNum
-    print("Result:"+ str(res))
+    output(res)
 
 def dist(frNum,secNum):
     res =frNum-secNum
-    print("Result:"+ str(res))
+    output(res)
 
 def mult(frNum,secNum):
     res =frNum*secNum
-    print("Result:"+ str(res))
+    output(res)
 
 def div(frNum,secNum):
     res =frNum/secNum            
-    print("Result:"+ str(res))
+    output(res)
 
 def pow(frNum,secNum):
     res =frNum**secNum
-    print("Result:"+ str(res))
+    output(res)
 
 def sqrt(frNum):
     import math
     res =math.sqrt(frNum)
-    print("Result:"+ str(res))
-
+    output(res)
+    
 
 
 frNum=float(input("Enter first number: ")) #User inputs the first number.
